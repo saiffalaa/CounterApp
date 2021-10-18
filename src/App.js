@@ -4,6 +4,7 @@ import { useState } from "react";
 function App() {
   const [count, setCount] = useState(0);
   const cal = (cnt) => {
+    if (cnt <= 0) cnt = 0;
     setCount(cnt);
   };
   return (
