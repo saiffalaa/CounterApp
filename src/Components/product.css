@@ -1,0 +1,13 @@
+.wid {
+  width: 30%;
+}
+.shadows {
+  box-shadow: 5px 5px 8px lightblue, -1px -1px 5px lightblue;
+}
+a {
+  text-decoration: none;
+}
+.hov:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}

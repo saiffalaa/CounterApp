@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+.hovLink {
+  color: white;
+}
+.hovLink:hover {
+  color: blue;
+  /* transform: scale(1.1); */
+  transition: all 0.3s;
+}
