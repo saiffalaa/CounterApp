@@ -6,6 +6,7 @@ import Shop from "./Components/Shop";
 import Home from "./Components/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ProductDetails from "./Components/ProductDetails";
+import Todo from "./Components/Todo";
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/shop" component={Shop} />
         <Route path="/shop/product-details/:id" component={ProductDetails} />
         <Route exact path="/" component={Home} />
+        <Route path="/todo" component={Todo} />
       </div>
     </Router>
   );

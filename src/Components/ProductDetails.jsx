@@ -33,8 +33,7 @@ const ProductDetails = ({ match }) => {
           <p>Category: {category}</p>
           <p>Description: {description}</p>
           <p>
-            rate: {rating?.rate} <i class="bi bi-star"></i> count:{" "}
-            {rating?.count}
+            rate: {rating?.rate} count: {rating?.count}
           </p>
         </div>
       )}
