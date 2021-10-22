@@ -18,7 +18,7 @@ const Shop = () => {
       .finally(() => setIsLoading(false));
   };
   return (
-    <>
+    <div className="mt-5">
       {isLoading ? (
         <div className="spinner-border text-primary" role="status">
           <span className="sr-only"></span>
@@ -30,7 +30,7 @@ const Shop = () => {
           })}
         </div>
       )}
-    </>
+    </div>
   );
 };
 

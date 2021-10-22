@@ -20,7 +20,7 @@ const Todo = () => {
     dispacth(delTodo(title, content));
   };
   return (
-    <div className="w-100">
+    <div className="w-100 mt-5">
       <form className="d-flex flex-column w-25 mx-auto justify-content-center">
         <input
           placeholder="Enter Todo Title"

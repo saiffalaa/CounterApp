@@ -12,7 +12,7 @@ function Child(props) {
     dispatch(addCounter(cnt));
   };
   return (
-    <div>
+    <div className="mt-5">
       <h1>Counter</h1>
       <p className="fs-3">{newCount.counter}</p>
       <div className="d-flex justify-content-around">

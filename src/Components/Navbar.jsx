@@ -18,6 +18,12 @@ const Navbar = () => {
         <Link to="/todo">
           <li className="ms-3  hovLink">Todo List</li>
         </Link>
+        <Link to="/login">
+          <li className="ms-3  hovLink">Login</li>
+        </Link>
+        <Link to="/register">
+          <li className="ms-3  hovLink">Register</li>
+        </Link>
       </ul>
     </div>
   );
